@@ -9,7 +9,13 @@
 
 function isEven(num) {
   // write you code here
+  if(num% 2 === 0){
+    return true;
+  }else {
+    return false;
+  }
 }
+isEven()
 
 // 2. The function Number.isNaN(num) will return true if num is not a number
 // or false if it is.
@@ -19,6 +25,16 @@ function isEven(num) {
 
 function isEvenV2(num) {
   // write you code here
+  if(num% 2 === 0){
+    return true;
+  }else if (isNan(num)) {
+      return "That is not a number";
+  }else{
+    return false;
+  }
+}
+
+isEven()
 }
 
 // 3. Complete the switch statment in the `getLunchOrder` with the following
@@ -32,6 +48,17 @@ function isEvenV2(num) {
 function getLunchOrder(lunchOrder) {
   switch(lunchOrder){
     // write you code here
+    case "sandwich": console.log("Sure thing! One sandwich, coming up.");
+    break;
+    case "soup": console.log("Got it! Tomato's my favorite.");
+    break;
+    case "salad": console.log("Sounds good! How about a caeser salad?");
+    break;
+    case "pie": console.log("Pie's not a meal!");
+    break;
+    default: console.log("How does a sandwich sound?");
+    break;
+
   }
 }
 
@@ -41,6 +68,11 @@ function getLunchOrder(lunchOrder) {
 
 function shouldINap(mood) {
   // write you code here
+  if(mood === 'tired' || mood === 'sleepy'){
+    return true;
+  }else{
+    return false;
+  }
 }
 
 // 5. Extend the `shouldINap` function
@@ -49,4 +81,11 @@ function shouldINap(mood) {
 
 function shouldINapV2(mood) {
   // write you code here
+  if(mood === 'tired' || mood === 'sleepy'){
+    return true;
+  }else if(mood === "energetic"){
+    return "Go use that energy and learn more Javascript"
+  }else{
+    return false;
+  }
 }
