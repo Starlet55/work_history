@@ -27,7 +27,7 @@ function isEvenV2(num) {
   // write you code here
   if(num% 2 === 0){
     return true;
-  }else if (isNan(num)) {
+  }else if (Number.isNan(num)) {
       return "That is not a number";
   }else{
     return false;
