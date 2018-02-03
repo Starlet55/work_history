@@ -4,7 +4,7 @@
 */
 
 // 1. Complete the `isEven` function
-// it returns `true` if the num is even
+// it takes a number as its first parameter returns `true` if the number is even
 // and `false` if it is not
 
 function isEven(num) {
@@ -19,7 +19,7 @@ isEven()
 
 // 2. The function Number.isNaN(num) will return true if num is not a number
 // or false if it is.
-// Use isNan to extend your `isEven` function by including an `else if` statement
+// Use Number.isNan to extend your `isEven` function by including an `else if` statement
 // that checks whether a num is a number and
 // console.log => "That is not a number", if it is not a number
 
@@ -63,8 +63,8 @@ function getLunchOrder(lunchOrder) {
 }
 
 // 4. Complete the `shouldINap` function
-// it returns `true` if mood is equal to "tired" or "sleepy"
-// and `false` if it is not
+// it takes a mood as its first parameter and returns `true` if mood is equal
+// to "tired" or "sleepy" and `false` if it is not
 
 function shouldINap(mood) {
   // write you code here

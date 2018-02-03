@@ -25,16 +25,18 @@ const numberToString = (number) =>{
 // 2. write a function that takes a number as a parameter and returns that
 // number subtracted by 1
 const numberMinusOne = (number) =>{
-  return number -=1
+  number -=1
+  return number
 }
 
 // 3. write a function that takes a number as a parameter and returns that
 // number added by 1
 const addnumberPlusOne = (number) =>{
-  return number +=1
+number +=1
+  return number
 }
 
-// 4. write a function that takes two number as its parameters and returns then
+// 4. write a function that takes two number as its parameters and returns the
 // addition of those two numbers
 const addTwoNumbers = (num1,num2) =>{
   return num1 + num2;
@@ -59,7 +61,7 @@ const oddOrNot = (number) =>{
 // 7. write a function that takes two strings as its parameters and returns the
 // combination of those two strings
 const combineStrings = ("string1", "string2") =>{
-  return 
+  return ["string1", "string2"];
 }
 
 // 8. write a function that takes the radius of a circle a parameter and returns
