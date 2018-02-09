@@ -66,11 +66,29 @@ let stationeries = (books, calculator) =>{
     return false;
   }
 }
-books(['textbook','notebook','novel','newspaper'], calculator);
+stationeries(['textbook','notebook','novel','newspaper'], calculator);
 // 5. write a function that takes an array as its first parameter, and a replaceValue as
 // its second parameter. The function returns a new array where all the values in the
 // array have been overwritten by the replaceValue.
+const allValue = (array, replaceValue){
+  let arrayIndex = array.length;
+  while (arrayIndex--){
+    array[arrayIndex] = replaceValue;
+  }
+}
+allValue(array);
 
 // 6. write a function that takes an array as its first parameter, a searchValue as
 // its second parameter and a replaceValue as the third parameter. The function returns
 // a new array where only the searchValue has been overwritten by the replaceValue.
+let fruits = ['oranges','Mangos','Apple'];
+
+let replaceFruits = (fruits, searchValue, replaceValue) =>{
+  for (let fruitIndex = 0; fruitIndex < fruits.length; fruitIndex++){
+    if (fruits[fruitIndex] = searchValue){
+      fruits[fruitIndex] = replaceValue;
+    }
+  }
+  console.log(fruits);
+}
+replaceFruits(['oranges','Mangos','Apple'],searchValue);

@@ -39,10 +39,10 @@ fruits(['Apple','Mango','Orange']);
 // beginning of the array.
 let books =  ['textbook','notebook','novel','newspaper'];
 
-function stationeries (numbers, Pencil ){
+function stationeries (books, Pencil ){
   return books.unshift(Pencil);
 }
-books(stationeries);
+stationeries(books);
 
 // 4. write a function that takes an array as its first parameter and a value as
 // its second parameter. The function returns a new array with the value added to
@@ -50,10 +50,10 @@ books(stationeries);
 
 let books =  ['textbook','notebook','novel','newspaper'];
 
-function stationeries (numbers, Pencil ){
+function studyMaterials (books, Pencil ){
   return books.push(Pencil);
 }
-books(stationeries);
+studyMaterials(books);
 
 // 5. write a function that takes an array as its first parameter, a value as
 // its second parameter and an index as the third parameter. The function returns

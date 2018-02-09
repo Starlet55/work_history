@@ -42,7 +42,7 @@ console.log(hasDaysLongerThanSixLetters);
 // Filter the weeks array for all the days that are longer than six letters
 
 const filteredDaysLongerThanSixLetters = week.filter(function(dayslength){
-  return week.length >6;
+  return week.length > 6;
 });
 
 // 4. Using the `map` function complete the instructions below:
