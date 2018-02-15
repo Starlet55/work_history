@@ -1,0 +1,15 @@
+In this assessment, you will use will be tested on your knowledge of javascript
+concepts from Section 3 of the video lectures. Answer them in YOUR OWN WORDS.
+Fill free to provide examples to help illustrate your train of thought.
+
+1. Javascript is a dynamically typed language. What does this mean?
+
+2. What is a primitive type? Explain each primitive type.
+
+3. What are operators and operands?
+
+4. In what order does operators get called?
+
+5. What does it mean when a value is coerced?
+
+6. What is the difference between '==' and '==='?

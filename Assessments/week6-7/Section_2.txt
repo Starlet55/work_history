@@ -1,0 +1,25 @@
+In this assessment, you will use will be tested on your knowledge of javascript
+concepts from Section 2 of the video lectures. Answer them in YOUR OWN WORDS.
+Fill free to provide examples to help illustrate your train of thought.
+
+1. What is a syntax parser?
+
+2. What is a lexical environment?
+
+3. What is the execution context?
+
+4. What are name/value pairs?
+
+5. What is an Object?
+
+6. What does it mean that something is "Global"?
+
+7. Explain how hoisting works in Javascript.
+
+8. What does undefined mean?
+
+9. Explain the concept of Scope?
+
+10. Javascript is single threaded. What does this mean?
+
+11. What is the difference between synchronous and asynchronous?

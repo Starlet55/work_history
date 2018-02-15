@@ -1,0 +1,34 @@
+In this assessment, you will use will be tested on your knowledge of javascript
+concepts from Section 4 of the video lectures. Answer them in YOUR OWN WORDS.
+Fill free to provide examples to help illustrate your train of thought.
+
+1. What are the ways to access methods or properties on an object?
+
+2. How do you initialize an Object literal?
+
+3. What is a Namespace? How does Javascript handle Namespacing?
+
+4. What is a JSON? What are some of the Javascript functions used to parse and encode JSON?
+
+5. What are first class functions?
+
+6. Explain the difference between a function statement and expression.
+
+7. What does it mean to be passed by value? What types are passed by value?
+
+8. What does it mean to be passed by reference? What types are passed by reference?
+
+9. What is the `this` variable?
+
+10. What is an array? How are they different in Javascript than in other languages?
+
+11. What are function arguments? What is the keyword that Javascript gives you to
+access a function's arguments?
+
+12. What is an IIFE? How can they be useful?
+
+13. Explain closures. How can you use them to your advantage in Javascript?
+
+14. What is a callback function?
+
+15. What does call(), apply() and bind() help you control?
