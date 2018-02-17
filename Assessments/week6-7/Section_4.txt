@@ -6,11 +6,14 @@ Fill free to provide examples to help illustrate your train of thought.
 
 2. How do you initialize an Object literal?
 
+
 3. What is a Namespace? How does Javascript handle Namespacing?
 
 4. What is a JSON? What are some of the Javascript functions used to parse and encode JSON?
+JSON stands for Javascript Object Notation
 
 5. What are first class functions?
+First class functions means functions have the same properties with other data types. They can be assigned to variables, passed around as arguments and even assigned as return values of other functions.
 
 6. Explain the difference between a function statement and expression.
 
@@ -28,7 +31,8 @@ access a function's arguments?
 12. What is an IIFE? How can they be useful?
 
 13. Explain closures. How can you use them to your advantage in Javascript?
-
+A closure is the combination of a function and the lexical environment within which the function was declared. It gives one access to an outer function's scope from an inner function.
 14. What is a callback function?
+A callback function is a function passed into another function as an argument, after which it is invoked.
 
 15. What does call(), apply() and bind() help you control?

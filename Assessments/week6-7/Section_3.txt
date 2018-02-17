@@ -3,13 +3,27 @@ concepts from Section 3 of the video lectures. Answer them in YOUR OWN WORDS.
 Fill free to provide examples to help illustrate your train of thought.
 
 1. Javascript is a dynamically typed language. What does this mean?
+It means data types can change at run time.
 
 2. What is a primitive type? Explain each primitive type.
+A primitive type is a datatype that accepts a single value. It is not an object because it has no name/value pairs.
+The primitive types are:
+ 1. Undefined: This means a variable was not set to any value.
+ 2. Null: You can create a variable and set it equal to Null. It means the variable is equal to nothing.
+ 3. Boolean: This goes with a true or false value only.
+ 4. Number: This is the only numeric type in Javascript. It always appear as a floating point number.
+ 5. String: This is a sequence of characters enclosed in quotation marks.
+ 6. Symbol: Mostly used in EcmaScript 6.
 
 3. What are operators and operands?
+An operator is a special function in Javascript. Its syntax is different from that of other functions.
+
 
 4. In what order does operators get called?
+operators are called in their order of precedence.
 
 5. What does it mean when a value is coerced?
+It means the value is being converted from one type to another.
 
 6. What is the difference between '==' and '==='?
+'==' is an equality operator, it coerces data types. But '===' is a strict equality operator, it doesn't coerce data types.

@@ -4,22 +4,32 @@ Fill free to provide examples to help illustrate your train of thought.
 
 1. What is a syntax parser?
 
+
 2. What is a lexical environment?
+A lexical environment deals with where(that is the position) something is written in a code.
 
 3. What is the execution context?
+The execution context contains and manages the code that is currently running. It is like a wrapper, or better still a wall surrounding the running code.
 
 4. What are name/value pairs?
+name/value pair refers to the mapping of a name and a value in one line of code.
 
 5. What is an Object?
+An object is a collection of properties
 
 6. What does it mean that something is "Global"?
+It means it sits freely in a global environment, not inside a function.
 
 7. Explain how hoisting works in Javascript.
 
 8. What does undefined mean?
+It means that the variable has not been set to any value.
 
 9. Explain the concept of Scope?
+Scope talks about where a variable sits or is defined in a code.
 
 10. Javascript is single threaded. What does this mean?
+It means it executes one command at a time.
 
 11. What is the difference between synchronous and asynchronous?
+The difference between synchronous and asynchronous is that in synchronous things happen one at a time while in asynchronous more than one thing can happen at a time.
