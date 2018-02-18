@@ -3,32 +3,42 @@ concepts from Section 4 of the video lectures. Answer them in YOUR OWN WORDS.
 Fill free to provide examples to help illustrate your train of thought.
 
 1. What are the ways to access methods or properties on an object?
+  1. Using dot Notation
+  2. Access methods using function Notation
 
 2. How do you initialize an Object literal?
-
+An object literal can be initialized by enclosing a list of property names and their associated values in curly braces.
 
 3. What is a Namespace? How does Javascript handle Namespacing?
+
 
 4. What is a JSON? What are some of the Javascript functions used to parse and encode JSON?
 JSON stands for Javascript Object Notation
 
 5. What are first class functions?
-First class functions means functions have the same properties with other data types. They can be assigned to variables, passed around as arguments and even assigned as return values of other functions.
+First class functions refers to functions that have the same properties with other data types. They can be assigned to variables, passed around as arguments and even assigned as return values of other functions.
 
 6. Explain the difference between a function statement and expression.
 
 7. What does it mean to be passed by value? What types are passed by value?
+Passing by value means that Javascript copies values of the variables that are passed to a function into local variables.
+The data types that are passed by value are: Boolean, Null, Undefined, String and Number.
 
 8. What does it mean to be passed by reference? What types are passed by reference?
-
+Passed by reference means that the changes of variables passed to a function will be reflected outside the function.
+The data types passed by reference are: Function, Array and Objects.
 9. What is the `this` variable?
+The 'this' variable is a variable that points to a global object.
 
 10. What is an array? How are they different in Javascript than in other languages?
-
+An array is a collection of data.
+Arrays in Javascript are different from that in other languages because they can accomodate any data type.
 11. What are function arguments? What is the keyword that Javascript gives you to
 access a function's arguments?
+Function arguments are parameters passed to a function during execution. The keyword is 'parameters'
 
 12. What is an IIFE? How can they be useful?
+IIFE stands for Immediately Invoked Function Expression. They are useful in Javascript because they are used to obtain privacy. This is because any variable declared within the IIFE cannot be accessed by the outside world.
 
 13. Explain closures. How can you use them to your advantage in Javascript?
 A closure is the combination of a function and the lexical environment within which the function was declared. It gives one access to an outer function's scope from an inner function.
@@ -36,3 +46,4 @@ A closure is the combination of a function and the lexical environment within wh
 A callback function is a function passed into another function as an argument, after which it is invoked.
 
 15. What does call(), apply() and bind() help you control?
+They help control the object which is being pointed at by the 'this' keyword.

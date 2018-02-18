@@ -3,7 +3,7 @@ concepts from Section 2 of the video lectures. Answer them in YOUR OWN WORDS.
 Fill free to provide examples to help illustrate your train of thought.
 
 1. What is a syntax parser?
-
+A syntax parser is a program that reads a code and determines what it does and if the syntax is correct.
 
 2. What is a lexical environment?
 A lexical environment deals with where(that is the position) something is written in a code.
