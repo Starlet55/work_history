@@ -3,7 +3,7 @@ concepts from Section 3 of the video lectures. Answer them in YOUR OWN WORDS.
 Fill free to provide examples to help illustrate your train of thought.
 
 1. Javascript is a dynamically typed language. What does this mean?
-It means data types can change at run time.
+It means data types are determined at run time.
 
 2. What is a primitive type? Explain each primitive type.
 A primitive type is a datatype that accepts a single value. It is not an object because it has no name/value pairs.
@@ -18,9 +18,9 @@ The primitive types are:
 3. What are operators and operands?
 An operator is a special function in Javascript. Its syntax is different from that of other functions.
 
-
 4. In what order does operators get called?
 operators are called in their order of precedence.
+They are also called according to their associativity. Especially when they have the same precedence.
 
 5. What does it mean when a value is coerced?
 It means the value is being converted from one type to another.

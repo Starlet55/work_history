@@ -15,18 +15,19 @@ The execution context contains and manages the code that is currently running. I
 name/value pair refers to the mapping of a name and a value in one line of code.
 
 5. What is an Object?
-An object is a collection of properties
+An object is a collection of key/value pairs.
 
 6. What does it mean that something is "Global"?
 It means it sits freely in a global environment, not inside a function.
 
 7. Explain how hoisting works in Javascript.
+In javascript, hoisting ensures variable and function declarations are put into memory during the compile phase, but stays exactly where they are typed in the code.  
 
 8. What does undefined mean?
 It means that the variable has not been set to any value.
 
 9. Explain the concept of Scope?
-Scope talks about where a variable sits or is defined in a code.
+Scope is the current execution context in which values and expressions can be refernced.
 
 10. Javascript is single threaded. What does this mean?
 It means it executes one command at a time.

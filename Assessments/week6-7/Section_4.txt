@@ -1,41 +1,46 @@
-In this assessment, you will use will be tested on your knowledge of javascript
+ In this assessment, you will use will be tested on your knowledge of javascript
 concepts from Section 4 of the video lectures. Answer them in YOUR OWN WORDS.
 Fill free to provide examples to help illustrate your train of thought.
 
 1. What are the ways to access methods or properties on an object?
   1. Using dot Notation
-  2. Access methods using function Notation
+  2. Computed member access. Also known as the bracket access.
 
 2. How do you initialize an Object literal?
 An object literal can be initialized by enclosing a list of property names and their associated values in curly braces.
 
 3. What is a Namespace? How does Javascript handle Namespacing?
-
+A Namespace is like a container which gives a level of direction to its contents so that it will be well distinguished and organized. It contains set of identifiers, functions, methods, etc.
+Javascript handles Namespacing by using objects to fake it.
 
 4. What is a JSON? What are some of the Javascript functions used to parse and encode JSON?
-JSON stands for Javascript Object Notation
+JSON stands for Javascript Object Notation. It is a string of data that looks like object literal syntax.
+Some of the javascript functions are:
+JSON.stringify(): Which takes an object and convert it to a JSON string.
+JSON.parse(): It will take a string and convert it to a javascript object.
 
 5. What are first class functions?
 First class functions refers to functions that have the same properties with other data types. They can be assigned to variables, passed around as arguments and even assigned as return values of other functions.
 
 6. Explain the difference between a function statement and expression.
+A function expression is a unit of code that results in a value but a function statement doesn't return a value until the function is executed.
 
 7. What does it mean to be passed by value? What types are passed by value?
 Passing by value means that Javascript copies values of the variables that are passed to a function into local variables.
 The data types that are passed by value are: Boolean, Null, Undefined, String and Number.
 
 8. What does it mean to be passed by reference? What types are passed by reference?
-Passed by reference means that the changes of variables passed to a function will be reflected outside the function.
+To pass by reference, a function is called by directly passing the address of the variable as the argument. Anytime the argument inside the function is changed, it affects the variable passed from outside the function.
 The data types passed by reference are: Function, Array and Objects.
 9. What is the `this` variable?
-The 'this' variable is a variable that points to a global object.
+The 'this' variable is a variable that points to the user defined object or global object it is created in.
 
 10. What is an array? How are they different in Javascript than in other languages?
 An array is a collection of data.
 Arrays in Javascript are different from that in other languages because they can accomodate any data type.
 11. What are function arguments? What is the keyword that Javascript gives you to
 access a function's arguments?
-Function arguments are parameters passed to a function during execution. The keyword is 'parameters'
+Function arguments are parameters passed to a function during execution. The keyword is 'arguments'
 
 12. What is an IIFE? How can they be useful?
 IIFE stands for Immediately Invoked Function Expression. They are useful in Javascript because they are used to obtain privacy. This is because any variable declared within the IIFE cannot be accessed by the outside world.
