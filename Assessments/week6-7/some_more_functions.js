@@ -91,3 +91,23 @@
 // EX:
   // sample input: [1, 7, 1, 4, 1, 6, 4, 5]
   // sample output: 1
+  let arrayCount = {};
+  let itemCompare = 0;
+  let mostFrequent;
+const mostFrequentArray = (numb) =>{
+  for(let i = 0, len = numb.length; i < len; i++){
+       let item = numb[i];
+
+       if(arrayCount[item] === undefined){
+           arrayCount[item] = 1;
+       }else{
+           arrayCount[item] = arrayCount[item] + 1;
+       }
+       if(arrayCount[item] > itemCompare){
+             itemCompare = arrayCount[item];
+             mostFrequent = numb[i];
+       }
+    }
+  return mostFrequent;
+}
+console.log(mostFrequentArray([3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3]));
